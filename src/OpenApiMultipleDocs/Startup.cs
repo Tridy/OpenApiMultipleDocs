@@ -19,7 +19,7 @@ namespace MultipleDocs
 
             services.AddMvc(options =>
             {
-                options.Conventions.Add(new ApiExplorerGroupPerVersionConvention());
+                options.Conventions.Add(new ApiExplorerGroupPerControllerConvention());
             });
 
             services.AddSwaggerGen(GenerateDefinitionForEachController);

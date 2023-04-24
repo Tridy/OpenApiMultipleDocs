@@ -2,7 +2,7 @@
 
 namespace MultipleDocs
 {
-    public class ApiExplorerGroupPerVersionConvention : IControllerModelConvention
+    public class ApiExplorerGroupPerControllerConvention : IControllerModelConvention
     {
         public void Apply(ControllerModel controller)
         {
